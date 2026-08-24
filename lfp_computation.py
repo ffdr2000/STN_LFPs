@@ -552,7 +552,7 @@ import pickle
 # Radius of the spherical recording volume (µm).
 radius_um = 600
 
-# Desired spatial density of recording locations (electrodes/mm³).
+# Desired spatial density of neuron locations (neurons/mm³).
 density_per_mm3 = 6000
 
 # Convert the sphere radius from micrometers to millimeters.
