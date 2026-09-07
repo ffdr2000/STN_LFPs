@@ -1,3 +1,4 @@
+// Modified by Torbjørn V Ness, 2021
 //Svjetlana Miocinovic
 //STN neuron (3D dendritic tree, no axon)
 //NEURON 5.5 (Windows version)
@@ -88,7 +89,7 @@ objref s[total] //list of all compartments
 //-------------------------------------------------------------------------------------------------
 create soma[somaelements], dend[dendelements], initseg[iselements]
 create node[axonnodes], MYSA[paranodes1], FLUT[paranodes2], STIN[axoninter]
-create electrode 
+//create electrode  // Modified by TVN
 access soma[1]
 
 proc initcell(){
@@ -256,10 +257,10 @@ proc initcell(){
 			insert extracellular xraxial=Rpx xg=mygm/(nl*2) xc=mycm/(nl*2)
 		}
 	}
-	electrode {
-		L=1
-		d=1
-	}
+	//electrode {  // Modified by TVN
+	//	L=1
+	//	d=1
+	//}
 }
 
 connect soma[1](0), soma[0](1)  
