@@ -1,0 +1,10 @@
+
+for i=0,axonnodes-1 {node[i]{delete_section()}}
+
+for i=0, paranodes2-1 {FLUT[i]{delete_section()}}
+
+for i=0, axoninter-1 {STIN[i]{delete_section()}}
+
+for i=0, paranodes1-1 {MYSA[i]{delete_section()}}
+
+access soma

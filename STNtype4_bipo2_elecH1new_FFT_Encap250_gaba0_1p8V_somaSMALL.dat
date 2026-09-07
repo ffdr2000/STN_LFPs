@@ -1,0 +1,10 @@
+DBS voltage pulse train stimulation of active STN neuron POPULATION
+
+Stimulus waveform used: fem_fourier_waveform/ffw_reconstr_bipo2_encap250_136Hz_210us.txt
+Voltage stimulus params: freq=variable Hz, pw=0.210000, delay=10.000000 ms, dur=variable, amp=30.000000, polarity=1, # test pulses = 2 
+Other params: tstop=124.705882 ms, dt=0.010000 ms, steps_per_ms=20.000000 ms, AP_delay=4.000000, number of nodes=28, epsilon=0.100000, AP_counter at node 26, ratio=10.000000
+GABA synapse in soma[1]: synstim = 0.000000, synpw = 1.000000, GABAsynAg = 0.011000
+
+
+Stimulus voltage pulse frequency: 136.000000
+Cell # 	 X 	 Y 	 Z 	 Thresh voltage(V) 	 ubound 	 # required APs 	 #extra APs during stim 	Avg spikes/sec B(Hz) 	 Avg Inst firing B (Hz) 	 Inst rate STD B (Hz) 	 Avg spikes/sec SOMA B(Hz) 	 Avg Inst firing SOMA B (Hz) 	 Avg spikes/sec D (Hz) 	 Avg Inst firing D 	 Inst rate STD D (Hz) 	 Avg spikes/sec SOMA D(Hz) 	 Avg Inst firing SOMA D (Hz) 	 Avg spikes/sec A (Hz) 	 Avg Inst firing A 	 Inst rate STD A (Hz) 	 Avg spikes/sec SOMA A(Hz) 	 Avg Inst firing SOMA A (Hz) 	 Avg freq D aft 100ms(Hz) 	 Delay after stim (ms) 	AP site#1 	 AP site#2 	 AP time1 	 AP time2	 soma_orig 	 soma_orig2	 #soma AP during stim
