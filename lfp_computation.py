@@ -468,7 +468,7 @@ def return_exc_inh_target_idxs(cell, perisomatic_dist_limit=100):
 np.random.seed(12345)
 
 # Directory containing the NEURON morphology and mechanism files.
-model_folder = join("neuron_models", "MiocinovicEtAl2006")
+model_folder = join("STN_LFPs", "Single_neuron_model")
 
 ###############################################################################
 # Load the STN morphology and associated membrane mechanisms.
