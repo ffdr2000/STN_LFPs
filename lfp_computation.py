@@ -469,7 +469,6 @@ np.random.seed(12345)
 
 # Directory containing the NEURON morphology and mechanism files.
 model_folder = join("STN_LFPs", "Single_neuron_model")
-
 ###############################################################################
 # Load the STN morphology and associated membrane mechanisms.
 ###############################################################################
